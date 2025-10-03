@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Name :<input type="text"
+        placeholder="Enter Your Full Name "
+        required
+        pattern="[a-zA-Z]+"
+        title="Enter Your Full Nmae Only ">
+        <!-- value="name middlename lastname " -->
+
+        <br><br>
+        Email :<input  type="email"
+        placeholder="Enter Your Email"
+        required>
+
+        <br><br>
+        Phone Number : <input type="text"
+        placeholder="Enetr Your Phone Number"
+        required
+        pattern="[0-9]{10}"
+        title="10 digits only"
+        >
+        <br><br>
+
+        Subject :
+        <select>
+            <option hidden>--Select Subject--</option>
+            <option>Gujarati</option>
+            <option>Hindi</option>
+            <option>English</option>
+            <option>Maths</option>
+        </select>
+        <br><br>
+
+        message :
+        <textarea rows="4" cols="24" placeholder="Enter Your Message Here">
+            
+        </textarea>
+
+        <br><br>
+        <button>submit</button>
+    </form>
+</body>
+</html>
